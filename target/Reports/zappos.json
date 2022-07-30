@@ -1,0 +1,224 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5195800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T13:44:58.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15834303100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.firstBefore()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142706400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.secondBefore()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3874925000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.thirdBefore()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Validate login functionality with valid email and invalid PASSWORD",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-zappos-page;validate-login-functionality-with-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.thirdScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 333900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.secondAfter()"
+            }
+          },
+          {
+            "result": {
+              "duration": 817187200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.firstAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23148683200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User should click the sign in button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2947344000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User should click the sign in with zappos button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_sign_in_with_zappos_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556808300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User should pass the valid email and invalid PASSWORD",
+            "match": {
+              "location": "LoginStepDefinition.user_should_pass_the_valid_email_and_invalid_PASSWORD(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "java",
+                  "java@123",
+                  "sql",
+                  "sql@34",
+                  "selenium",
+                  "selenium@123"
+                ]
+              },
+              {
+                "cells": [
+                  "pen",
+                  "pen@123",
+                  "pencil",
+                  "pencil@34",
+                  "note",
+                  "note@123"
+                ]
+              },
+              {
+                "cells": [
+                  "deva",
+                  "deva@123",
+                  "gayu",
+                  "gayu@34",
+                  "sowmi",
+                  "sowmi@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20393282100,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192940300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User should print the TITLE of ur page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_TITLE_of_ur_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14394500,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User should navigate to incorrect credential page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sachin"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the Zappos page",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-zappos-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@Sachin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
